@@ -4,4 +4,146 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 5px;
+  align-items: center;
+  height: 80px;
+  background-image: url(../assets/imagenes/Encabezado.jpg);
+  background-color: #127369;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+header .red-soc {
+  top: 30px;
+  left: 0;
+}
+header .red-soc a img {
+  width: 36px;
+  height: auto;
+}
+header .nav-ini {
+  display: flex;
+  gap: 20px;
+  padding-right: 30px;
+  list-style: none;
+  margin: 0;
+}
+header .nav-ini li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.main-index {
+  background-color: #ffffff;
+  width: 100vw;
+}
+.main-index .seccion1 {
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.main-index .seccion1 h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-index .seccion1 p {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: rgb(0, 0, 0);
+}
+.main-index .seccion2 {
+  width: 70%;
+  margin: 0 auto;
+  align-items: center;
+}
+.main-index .seccion2 .art1 {
+  display: flex;
+  align-items: center;
+}
+.main-index .seccion2 .art1 img {
+  width: 180px;
+  height: auto;
+  margin-right: 10px;
+}
+.main-index .art2 {
+  display: flex;
+  align-items: center;
+}
+.main-index .art2 img {
+  width: 180px;
+  height: auto;
+  margin-right: 10px;
+}
+.main-index .art3 {
+  display: flex;
+  align-items: center;
+}
+.main-index .art3 img {
+  width: 180px;
+  height: auto;
+  margin-right: 10px;
+}
+.main-index .container {
+  display: grid;
+  width: 100%;
+  height: 500px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "slide1 slide2 slide3" "slide5 slide2 slide4";
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 150px;
+}
+.main-index .container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-index .container .slide1 {
+  grid-area: slide1;
+}
+.main-index .container .slide2 {
+  grid-area: slide2;
+}
+.main-index .container .slide3 {
+  grid-area: slide3;
+}
+.main-index .container .slide4 {
+  grid-area: slide4;
+}
+.main-index .container .slide5 {
+  grid-area: slide5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #57dacc;
+  height: 160px;
+  object-fit: contain;
+}
+footer .foot-red-soc a img {
+  width: 24px;
+  height: auto;
+}
+footer .parrafo p {
+  font-size: 28px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+header{
+    display: flex;flex-direction: row;justify-content: space-between;padding:10px 5px;
+    align-items: center;height: 80px; background-image: url(../assets/imagenes/Encabezado.jpg);
+    background-color:#127369 ; background-position: center; background-size: cover; 
+    margin-bottom: 10px;
+    .red-soc{top:30px;left:0;
+        a{
+            img{width:36px;height:auto}
+        }}
+    .nav-ini{
+        display: flex; gap: 20px; 
+        padding-right:30px ;list-style:none; margin: 0;
+        li{
+            a{text-decoration: none;
+            color:rgb(0,0,0)}
+        }}} 

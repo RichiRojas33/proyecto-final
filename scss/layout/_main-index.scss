@@ -1,0 +1,34 @@
+.main-index{
+    background-color: #ffffff;width: 100vw;
+    .seccion1{ width:80%; margin:0 auto;
+        padding-left: 50px; padding-right: 50px;
+    h1{font-size: map-get($map: $fuentes, $key:xl );text-transform: uppercase;margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,1);
+    font-weight: 900;text-align: center; margin-bottom:20px;}
+    p{font-size: map-get($map: $fuentes, $key:m );text-align: center;margin-bottom: 60px;color: rgb(0, 0, 0);}}
+    .seccion2{width:70%;margin: 0 auto; align-items: center;
+        .art1{display: flex;align-items: center; 
+            img{width:180px; height:auto; margin-right: 10px;}}}
+        .art2{display: flex;align-items: center;
+            img{width:180px;height:auto; margin-right: 10px;}}
+        .art3{display: flex;align-items: center;
+            img{width:180px;height:auto; margin-right: 10px;}}
+        .container{display: grid;
+            width: 100%;
+            height: 500px;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+            grid-template-areas: 
+            "slide1 slide2 slide3"
+            "slide5 slide2 slide4";
+            gap: 10px;
+            padding: 10px;
+            margin-bottom: 150px;
+            img{width: 100%;
+                height:100%;
+                object-fit: cover;}
+            .slide1{grid-area: slide1;}
+            .slide2{grid-area:slide2;}
+            .slide3{grid-area:slide3;}
+            .slide4{grid-area:slide4;}
+            .slide5{grid-area:slide5;}}}
+            
