@@ -1,0 +1,25 @@
+@media(max-width:425px9){
+    header{height: 210px; 
+        justify-content: center; align-items: center;
+    .nav-ini{flex-direction:column;padding-right: none;
+    align-items: center;padding-bottom: 4px; gap:2px;}
+    .red-soc{
+        a{
+            img{width: 28px; height: auto;}
+        }
+    }
+}
+    .main-index{
+        .seccion2{
+            .art1{display: flex;align-items: center;
+                flex-direction: column;justify-content: center;}
+            .art2{display: flex;align-items: center;
+                flex-direction: column;justify-content: center;}
+            .art3{display: flex;align-items: center;
+                flex-direction: column;justify-content: center;}
+        }
+        .Galería{display: flex; 
+        flex-direction: column;margin-bottom: 540px;
+    .slide1{display: none;}
+    .slide2{display:none;}
+    .slide3{display: none;}}}}
