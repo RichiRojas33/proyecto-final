@@ -1,0 +1,16 @@
+.main-mentoría{
+    .seccion3{width:80%; max-width:1000px;
+        margin: 0 auto;
+        padding-left: 0;padding-right: 0; text-align: center;
+        h1{font-size: map-get($map: $fuentes, $key:xl);
+            text-align: center;text-transform: uppercase;
+            color: rgb(0, 0, 0);text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+            margin-bottom: 20px;}
+        p{font-size: map-get($map:$fuentes , $key:m );
+            color: black;text-align: center;margin-bottom: 50px;}
+        .but-start{width: 200px;
+            height: 60px; top: 0;margin-bottom: 10px;
+            border: 4px solid #000000;background-color: rgb(255, 255, 255);
+            box-shadow: 0px 3px 6px #000000;text-align: center;}
+        .div-ment{display: flex;
+            .img-ment{width: 100%;height: auto;object-fit: cover;}}}}

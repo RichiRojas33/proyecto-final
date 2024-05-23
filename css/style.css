@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -124,6 +125,82 @@ header .nav-ini li a {
 }
 .main-index .container .slide5 {
   grid-area: slide5;
+}
+
+.claves {
+  justify-content: space-around;
+}
+.claves img {
+  width: 12.5rem;
+  height: auto;
+  border-radius: 15%;
+}
+
+.main-mentoría .seccion3 {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.main-mentoría .seccion3 h1 {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+.main-mentoría .seccion3 p {
+  font-size: 28px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.main-mentoría .seccion3 .but-start {
+  width: 200px;
+  height: 60px;
+  top: 0;
+  margin-bottom: 10px;
+  border: 4px solid #000000;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 6px #000000;
+  text-align: center;
+}
+.main-mentoría .seccion3 .div-ment {
+  display: flex;
+}
+.main-mentoría .seccion3 .div-ment .img-ment {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.blog {
+  justify-content: space-around;
+  padding-bottom: 12px;
+}
+
+.publicación-1 {
+  width: 100vw;
+}
+.publicación-1 .seccion-publ {
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.publicación-1 .seccion-publ h1 {
+  padding-bottom: 12px;
+  text-align: center;
+}
+.publicación-1 .seccion-publ p {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.publicación-1 .seccion-publ .video-publi {
+  align-items: center;
 }
 
 footer {
