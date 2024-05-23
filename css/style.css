@@ -196,11 +196,12 @@ header .nav-ini li a {
   text-align: center;
 }
 .publicación-1 .seccion-publ p {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   text-align: center;
 }
 .publicación-1 .seccion-publ .video-publi {
-  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 footer {
