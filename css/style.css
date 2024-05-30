@@ -244,6 +244,27 @@ footer .parrafo p {
     height: 100%;
     object-fit: cover;
   }
+  .main-mentoría {
+    justify-content: center;
+    text-align: center;
+  }
+  .main-mentoría .seccion3 {
+    justify-content: center;
+    text-align: center;
+  }
+  footer {
+    justify-content: space-between;
+    text-align: center;
+  }
+  footer .foot-red-soc a img {
+    width: 20px;
+    height: auto;
+  }
+  footer .parrafo p {
+    font-size: 28px;
+    justify-content: center;
+    text-align: center;
+  }
 }
 @media (max-width: 425px9) {
   header {
