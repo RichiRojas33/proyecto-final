@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+main {
+  background: rgb(87, 218, 204);
+  background: linear-gradient(323deg, rgb(87, 218, 204) 40%, rgb(18, 115, 105) 100%);
+}
+
 header {
   display: flex;
   flex-direction: row;
