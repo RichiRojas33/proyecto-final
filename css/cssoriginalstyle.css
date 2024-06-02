@@ -7,7 +7,7 @@ font-family: "Poppins", sans-serif font-weight: 900;font-style: normal;
 font-family: "Poppins", sans-serif font-weight: 400;font-style: normal;
 
 Paleta de colores
-#127369 #57dacc
+#127369 #57dacc 
 **/
 header { display: flex;
     flex-direction: row;
