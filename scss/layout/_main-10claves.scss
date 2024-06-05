@@ -1,2 +1,7 @@
+.clav-section1{width:80%; margin:0 auto;
+    padding-left: 50px; padding-right: 50px;
+    h1{font-size: map-get($map: $fuentes, $key:xl );text-transform: uppercase;margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,1);
+    font-weight: 900;text-align: center; margin-bottom:20px;}
+    p{font-size: map-get($map: $fuentes, $key:m );text-align: center;margin-bottom: 60px;color: rgb(0, 0, 0);}}
 .claves{justify-content: space-around;
     img{width: 12.5rem ; height: auto; border-radius: 15%;}}
