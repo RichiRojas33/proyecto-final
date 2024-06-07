@@ -17,6 +17,14 @@
             .slide1{display: none;}
             .slide3{display: none;}
             .slide5{display: none;}
-            .slide4{display: none;}
-            .slide2{width: 180px;height: auto;justify-content: center;}}}}
-    
+            .slide4{width: 180px;height: auto;justify-content: center;}
+            .slide2{display: none}}}}
+    footer{display: flex;flex-direction: column;justify-content:center; text-align: center;
+                .foot-red-soc{
+                    a{
+                        img{width: 20px;height:auto;}
+                    }}
+                .parrafo{
+                    p{font-size:map-get($map: $fuentes, $key:xs ); justify-content: center; 
+                        text-align: center;}
+                }}

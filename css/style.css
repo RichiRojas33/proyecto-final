@@ -226,24 +226,24 @@ header .nav-ini li a {
   padding-bottom: 12px;
 }
 
-.publicación-1 {
+.main-publicación {
   width: 100vw;
 }
-.publicación-1 .seccion-publ {
+.main-publicación .seccion-publ {
   width: 80%;
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
 }
-.publicación-1 .seccion-publ h1 {
+.main-publicación .seccion-publ h1 {
   padding-bottom: 12px;
   text-align: center;
 }
-.publicación-1 .seccion-publ p {
+.main-publicación .seccion-publ p {
   padding-bottom: 40px;
   text-align: center;
 }
-.publicación-1 .seccion-publ .video-publi {
+.main-publicación .seccion-publ .video-publi {
   text-align: center;
   padding-bottom: 20px;
 }
@@ -255,6 +255,7 @@ header .nav-ini li a {
 
 footer {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   height: 80px;
   text-align: center;
@@ -312,7 +313,7 @@ footer .parrafo p {
     height: auto;
   }
   footer .parrafo p {
-    font-size: 28px;
+    font-size: 24px;
     justify-content: center;
     text-align: center;
   }
@@ -373,13 +374,28 @@ footer .parrafo p {
     display: none;
   }
   .main-index .galería .slide4 {
-    display: none;
-  }
-  .main-index .galería .slide2 {
     width: 180px;
     height: auto;
     justify-content: center;
   }
+  .main-index .galería .slide2 {
+    display: none;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+footer .foot-red-soc a img {
+  width: 20px;
+  height: auto;
+}
+footer .parrafo p {
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
